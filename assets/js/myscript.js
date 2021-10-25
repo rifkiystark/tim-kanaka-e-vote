@@ -10,7 +10,7 @@ $("#btn-learn-more").click(function (e) {
       scrollTop: $(id).offset().top - 70,
     },
     500,
-    function () {}
+    function () { }
   );
 });
 $(".to-top").click(function (e) {
@@ -21,7 +21,7 @@ $(".to-top").click(function (e) {
       scrollTop: $(id).offset().top - 70,
     },
     500,
-    function () {}
+    function () { }
   );
 });
 
@@ -119,11 +119,7 @@ $(function () {
       "scrolled bg-white",
       $(this).scrollTop() > $nav.height()
     );
-    if ($(this).scrollTop() > $nav.height()) {
-      $imgNav.attr("src", "./assets/img/logo.svg");
-    } else {
-      $imgNav.attr("src", "./assets/img/logo.svg");
-    }
+
 
     if ($(this).scrollTop() < $nav.height() + 520) {
       $("#btn-up").hide();
@@ -140,4 +136,18 @@ $(function () {
       });
     }
   });
+
+  let box = document.querySelector('.card-candidates');
+  let width = box.offsetWidth;
+  let height = box.offsetHeight;
+  console.log(height)
+  $("#cardCandidates").css("height", height);
+
+  window.addEventListener("resize", function (event) {
+    let box = document.querySelector('.card-candidates');
+    let width = box.offsetWidth;
+    let height = box.offsetHeight;
+    console.log(height)
+    $("#cardCandidates").css("height", height);
+  })
 });
