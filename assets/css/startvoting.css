@@ -1,0 +1,38 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: #30363B;
+    overflow-x: hidden;
+  }
+  
+
+input[type="radio"] {
+    width: 48px;
+    height: 48px;
+}
+
+.wrapper-candidate {
+    border-radius: 18px;
+    box-shadow: 0px 0px 132px #f1d5c5;
+    cursor: pointer;
+}
+
+.title-start-voting {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.candidate-number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 122, 0, 0.37);
+    margin: 0 auto;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 2px;
+}
+
+.candidate-name {
+    font-weight: 600;
+    font-size: 24px;
+}
