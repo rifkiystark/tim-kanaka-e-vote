@@ -482,6 +482,14 @@ input[type=radio] {
     padding: 12px 32px;
     color: white;
   }
+  .btn-start-voting:hover {
+    font-size: 20px;
+    font-weight: 700;
+    background: #FF7A00;
+    border-radius: 19px;
+    padding: 12px 32px;
+    color: white;
+  }
   .item-counter-candidates {
     font-size: 24px;
     padding: 8px 20px;
