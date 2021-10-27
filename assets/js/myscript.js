@@ -49,12 +49,6 @@ $(function () {
     );
 
 
-    if ($(this).scrollTop() < $nav.height() + 520) {
-      $("#btn-up").hide();
-    } else {
-      $("#btn-up").show();
-    }
-
     if (!isClick) {
       $(".nav-link").each((i, elem) => {
         if (elem.className.search("active") != -1) {
