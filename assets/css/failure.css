@@ -1,0 +1,30 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: #30363B;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    background: #FF7A00C9;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 55px;
+    border-radius: 0px 0px 45px 45px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.custom-button {
+    background-color: #FF7A00;
+    color: white;
+    border-radius: 11px;
+    font-weight: 700;
+    padding: 5px 40px
+}

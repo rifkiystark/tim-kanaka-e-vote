@@ -14,6 +14,12 @@ input[type="radio"] {
     border-radius: 18px;
     box-shadow: 0px 0px 132px #f1d5c5;
     cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.wrapper-candidate:hover {
+    transform: scale(1.05);
+    transition: ease 0.5s;
 }
 
 .title-start-voting {
